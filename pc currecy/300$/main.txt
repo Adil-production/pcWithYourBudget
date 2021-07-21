@@ -1,0 +1,49 @@
+1 {
+
+Lenovo IdeaCentre 3 Desktop, Tower, AMD Athlon Silver 3050U Processor, AMD Radeon Graphics, 4GB DDR4, 256GB SSD, Wi-Fi 802.11, Bluetooth, HDMI, 8 USB Ports, Windows 10, 90NT0000US, Silver
+link : https://www.amazon.com/Lenovo-IdeaCentre-Processor-Bluetooth-90NT0000US/dp/B089N6C6W2/ref=sr_1_3?dchild=1&keywords=desktop+computer&qid=1626832030&refinements=p_36%3A-40000&rnid=2421879011&sr=8-3
+
+}
+
+2 {
+
+HP Desktop PC, Intel Pentium Gold G6400 Processor, 8 GB of RAM, 256 GB SSD Storage, Windows 10 Home, High-Speed Performance Computer, 8 USB Ports, Business, Study, Videos, & Gaming (M01-F1014, 2020)
+link : https://www.amazon.com/HP-Processor-High-Speed-Performance-M01-F1014/dp/B08PL38TT2/ref=sr_1_9?dchild=1&keywords=desktop+computer&qid=1626863672&sr=8-9
+
+
+}
+
+3 {
+
+DELL Optiplex 7010 Small Form Factor Desktop Computer, Intel Quad-Core i7-3770 Up to 3.9GHz, 16GB RAM, 2TB 7200 RPM HDD, DVD, USB 3.0, WIFI, Windows 10 Pro (Renewed)']
+link : https://www.amazon.com/Dell-Optiplex-7010-Quad-Core-Refurbished/dp/B077D4SFMF/ref=sr_1_14?dchild=1&keywords=desktop+computer&qid=1626864635&refinements=p_36%3A-39900&rnid=2421879011&sr=8-14
+
+
+}
+
+4 {
+
+Dell Optiplex 990 Desktop Computer Package - Intel Quad Core i5 3.1-GHz, 16GB RAM, 2 TB, DVD-RW Drive, 20 Inch LCD Monitor, Keyboard, Mouse, WiFi, Bluetooth, Windows 10 (Renewed)
+link : https://www.amazon.com/Dell-Optiplex-990-Desktop-Computer/dp/B07TW8QHZS/ref=sr_1_19?dchild=1&keywords=desktop+computer&qid=1626864834&refinements=p_36%3A-39900&rnid=2421879011&sr=8-19
+
+
+
+}
+
+5 {
+
+lenovo ThinkCentre M93p Business Class Desktop, Quad Core i7 4770 3.4Ghz, 16GB DDR3 RAM, 512GB SSD Hard Drive, DVD-RW, Windows 10 Pro (Renewed)
+link : https://www.amazon.com/Lenovo-ThinkCentre-M93p-Business-Desktop/dp/B07PV4F3Q9/ref=sr_1_20?dchild=1&keywords=desktop+computer&qid=1626864834&refinements=p_36%3A-39900&rnid=2421879011&sr=8-20
+
+
+}
+
+6 {
+
+DELL Optiplex 990 Desktop Computer, i7 upto 3.8GHz CPU, 16GB DDR3 Memory, New 512GB SSD, WiFi, Windows 10 Pro (Renewed)']
+link : https://www.amazon.com/Dell-Optiplex-990-Certified-Refurbished/dp/B01H63TWZC/ref=sr_1_21?dchild=1&keywords=desktop+computer&qid=1626864834&refinements=p_36%3A-39900&rnid=2421879011&sr=8-21
+
+
+
+
+}

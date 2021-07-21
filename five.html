@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <style>
+         *{
+            
+            font-family: 'Montserrat', sans-serif;
+        }
+         .back{
+            color: rgb(190, 190, 190);
+            position : fixed;
+        }
+        .computer{
+            border: none;
+            width: 150px;
+            padding: 10px;
+            height: 300px;
+            margin: 10px;
+        }
+        .buy{
+            background-color: #2680EB;
+            border: none;
+            border-radius: 50px;
+            color: white;
+            padding: 10px;
+           
+           
+        }
+        #information{
+            display: none;
+            background-color: white;
+            padding: 20px;
+            margin: -7px;
+            position: absolute;
+            position: fixed;
+            bottom: 0px;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            box-shadow: 0px -10px 18px rgb(0, 0, 0);
+        }
+        body{
+            background-color: rgb(0, 0, 56);
+        }
+        a:link{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="three">
+        <div align="left">
+           <a href="budget.html"> <h3 id="Fback"  class="back">←</h3></a>
+           
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="computers" align="center">
+
+            <button id="A1" onclick="A1()" class="computer"><img src="pc currecy/500$/1.jpg" width="80px" height="auto"> <br>  <span>ASUS ExpertCenter D500SA</span></button>
+            <button id="A2" onclick="A2()" class="computer"><img src="pc currecy/500$/2.jpg" width="130px" height="auto"> <br> <span>iBUYPOWER Pro Gaming PC</span></button>
+            <button id="A3" onclick="A3()" class="computer"><img src="pc currecy/500$/3.jpg" width="120px" height="auto"> <br> <span>HP Envy Desktop PC</span></button>
+            <button id="A4" onclick="A4()" class="computer"><img src="pc currecy/500$/4.jpg" width="100px" height="auto"> <br> <span>Dell Inspiron 3880</span></button>
+            <button id="A5" onclick="A5()" class="computer"><img src="pc currecy/500$/5.jpg" width="110px" height="auto"> <br> <span>Allied Gaming Stinger</span></button>
+            <button id="A6" onclick="A6()" class="computer"><img src="pc currecy/500$/6.jpg" width="100px" height="auto"> <br> <span>Periphio Portal Gaming PC</span></button>
+
+        </div>
+        <div id="information" align="center">
+            <div id="x" align="right">
+                <span style="color: red;" onclick="x()">X</span>
+                <script>
+                    function x(){
+                        document.getElementById("information").style.display = "none";
+                    }
+                </script>
+            </div>
+            <br>
+            <br>
+            <span id="informationText"></span>
+            <br>
+            <br>
+            <br>
+            <a href="https://www.amazon.com/ASUS-ExpertCenter-i5-10400-Professional-D500SA-EB501/dp/B08FLHD7JN/ref=sr_1_4?dchild=1&keywords=desktop+computer&qid=1626868672&refinements=p_36%3A2421881011&rnid=2421879011&s=pc&sr=1-4"><button id="buy1" onclick="Abuy1()" class="buy">Buy</button></a>
+            <a href="https://www.amazon.com/iBUYPOWER-Computer-Desktop-Element-190A/dp/B096TCCDWK/ref=sr_1_9?dchild=1&keywords=desktop+computer&qid=1626868672&refinements=p_36%3A2421881011&rnid=2421879011&s=pc&sr=1-9"><button id="buy2" onclick="Abuy2()" class="buy">Buy</button></a>
+            <a href="https://www.amazon.com/HP-Envy-Desktop-PC-i7-10700/dp/B092BM56BQ/ref=sr_1_10?dchild=1&keywords=desktop+computer&qid=1626868672&refinements=p_36%3A2421881011&rnid=2421879011&s=pc&sr=1-10"><button id="buy3" onclick="Abuy3()" class="buy">Buy</button></a>
+            <a href="https://www.amazon.com/Dell-Inspiron-3880-Quad-Core-Processor/dp/B08VNXRZBZ/ref=sr_1_12?dchild=1&keywords=desktop+computer&qid=1626868672&refinements=p_36%3A2421881011&rnid=2421879011&s=pc&sr=1-12"><button id="buy4" onclick="Abuy4()" class="buy">Buy</button></a>
+            <a href="https://www.amazon.com/Allied-Gaming-Stinger-Esports-Activated/dp/B08TGTK3LC/ref=sr_1_17?dchild=1&keywords=desktop+computer&qid=1626868672&refinements=p_36%3A2421881011&rnid=2421879011&s=pc&sr=1-17"><button id="buy5" onclick="Abuy5()" class="buy">Buy</button></a>
+            <a href="https://www.amazon.com/Periphio-Desktop-Computer-Windows-Graphics/dp/B097NQPR1V/ref=sr_1_26?dchild=1&keywords=desktop+computer&qid=1626868672&refinements=p_36%3A2421881011&rnid=2421879011&s=pc&sr=1-26"><button id="buy6" onclick="Abuy6()" class="buy">Buy</button></a>
+            <a href="https://www.amazon.com/Periphio-Desktop-Computer-Windows-Graphics/dp/B097NQPR1V/ref=sr_1_26?dchild=1&keywords=desktop+computer&qid=1626868672&refinements=p_36%3A2421881011&rnid=2421879011&s=pc&sr=1-26"><button id="buy7" onclick="Abuy7()" class="buy">Buy</button></a>
+            <a href="https://www.amazon.com/Periphio-Desktop-Computer-Windows-Graphics/dp/B097NQPR1V/ref=sr_1_26?dchild=1&keywords=desktop+computer&qid=1626868672&refinements=p_36%3A2421881011&rnid=2421879011&s=pc&sr=1-26"><button id="buy8" onclick="Abuy8()" class="buy">Buy</button></a>
+            <a href="https://www.amazon.com/Periphio-Desktop-Computer-Windows-Graphics/dp/B097NQPR1V/ref=sr_1_26?dchild=1&keywords=desktop+computer&qid=1626868672&refinements=p_36%3A2421881011&rnid=2421879011&s=pc&sr=1-26"><button id="buy9" onclick="Abuy9()" class="buy">Buy</button></a>
+
+        </div>
+        <script>
+          
+
+
+            function A1(){
+               document.getElementById("information").style.display = "block";
+               document.getElementById("informationText").innerHTML = "ASUS ExpertCenter D500SA Small Form Factor Desktop PC, Intel Core i5-10400, 8GB DDR4 RAM, 256GB PCIe SSD, Wi-Fi 6, TPM, Windows 10 Professional, Black, D500SA-EB501";
+             document.getElementById("buy2").style.display = "none";
+             document.getElementById("buy3").style.display = "none";
+             document.getElementById("buy4").style.display = "none";
+             document.getElementById("buy5").style.display = "none";
+             document.getElementById("buy6").style.display = "none";
+             document.getElementById("buy7").style.display = "none";
+             document.getElementById("buy8").style.display = "none";
+             document.getElementById("buy9").style.display = "none";
+               document.getElementById("buy1").style.display = "block";
+               }
+            function A2(){
+                document.getElementById("information").style.display = "block";
+                document.getElementById("informationText").innerHTML = "iBUYPOWER Pro Gaming PC Computer Desktop Element Mini 190A (Ryzen 3 3100 3.6GHz, NVIDIA GeForce GT 710 1GB, 8GB DDR4, 480GB SSD, WiFi Ready, Windows 10 Home)";
+                document.getElementById("buy1").style.display = "none";
+             document.getElementById("buy3").style.display = "none";
+             document.getElementById("buy4").style.display = "none";
+             document.getElementById("buy5").style.display = "none";
+             document.getElementById("buy6").style.display = "none";
+             document.getElementById("buy7").style.display = "none";
+             document.getElementById("buy8").style.display = "none";
+             document.getElementById("buy9").style.display = "none";
+                document.getElementById("buy2").style.display = "block";
+            }
+            function A3(){
+                document.getElementById("information").style.display = "block";
+                document.getElementById("informationText").innerHTML = "HP Envy Desktop PC - Intel Core i7-10700 2.9GHz 8GB RAM 1TB HD + 16GB Optane Memory DVDRW WiFi Windows 10 (Renewed)";
+                document.getElementById("buy1").style.display = "none";
+             document.getElementById("buy2").style.display = "none";
+             document.getElementById("buy4").style.display = "none";
+             document.getElementById("buy5").style.display = "none";
+             document.getElementById("buy6").style.display = "none";
+             document.getElementById("buy7").style.display = "none";
+             document.getElementById("buy8").style.display = "none";
+             document.getElementById("buy9").style.display = "none";
+                document.getElementById("buy3").style.display = "block";
+            }
+            function A4(){
+                document.getElementById("information").style.display = "block";
+                document.getElementById("informationText").innerHTML = "2021 Newest Dell Inspiron 3880 Desktop Computer, Intel Quad-Core i3-10100 Processor Up to 4.3Ghz, 16GB DDR4 RAM, 1TB SSD, Wi-Fi, SD Card Reader, HDMI, VGA, NO-DVD, Win10 Home, Black +Oydisen Cloth";
+                document.getElementById("buy1").style.display = "none";
+             document.getElementById("buy2").style.display = "none";
+             document.getElementById("buy3").style.display = "none";
+             document.getElementById("buy5").style.display = "none";
+             document.getElementById("buy6").style.display = "none";
+             document.getElementById("buy7").style.display = "none";
+             document.getElementById("buy8").style.display = "none";
+             document.getElementById("buy9").style.display = "none";
+                document.getElementById("buy4").style.display = "block";
+            }
+            function A5(){
+                document.getElementById("information").style.display = "block";
+                document.getElementById("informationText").innerHTML = "Allied Gaming Stinger Desktop PC: Ryzen 5 1600, AMD RX 550 4GB, 8GB DDR4 3000MHz, 240GB SSD, A320 Motherboard, 550 Watt PSU, ARGB Fans, WiFi Ready";
+                document.getElementById("buy1").style.display = "none";
+             document.getElementById("buy2").style.display = "none";
+             document.getElementById("buy3").style.display = "none";
+             document.getElementById("buy4").style.display = "none";
+             document.getElementById("buy6").style.display = "none";
+             document.getElementById("buy7").style.display = "none";
+             document.getElementById("buy8").style.display = "none";
+             document.getElementById("buy9").style.display = "none";
+                document.getElementById("buy5").style.display = "block";
+            }
+            function A6(){
+                document.getElementById("information").style.display = "block";
+                document.getElementById("informationText").innerHTML = "Periphio Portal Gaming PC Desktop Computer Tower, Intel Quad Core i5 3.2GHz, 16GB RAM, 120GB SSD + 500GB HDD, Windows 10, Nvidia GT1030 2GB Graphics Card, HDMI, Wi-Fi (Renewed)";
+                document.getElementById("buy1").style.display = "none";
+             document.getElementById("buy2").style.display = "none";
+             document.getElementById("buy3").style.display = "none";
+             document.getElementById("buy4").style.display = "none";
+             document.getElementById("buy5").style.display = "none";
+             document.getElementById("buy7").style.display = "none";
+             document.getElementById("buy8").style.display = "none";
+             document.getElementById("buy9").style.display = "none";
+                document.getElementById("buy6").style.display = "block";
+            }
+        </script>
+    </div>
+</body>
+</html>

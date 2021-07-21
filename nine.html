@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <style>
+         *{
+            
+            font-family: 'Montserrat', sans-serif;
+        }
+         .back{
+            color: rgb(190, 190, 190);
+            position : fixed;
+        }
+        .computer{
+            border: none;
+            width: 150px;
+            padding: 10px;
+            height: 300px;
+            margin: 10px;
+        }
+        .buy{
+            background-color: #2680EB;
+            border: none;
+            border-radius: 50px;
+            color: white;
+            padding: 10px;
+            display: none;
+           
+        }
+        #information{
+            display: none;
+            background-color: white;
+            padding: 20px;
+            margin: -7px;
+            position: absolute;
+            position: fixed;
+            bottom: 0px;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            box-shadow: 0px -10px 18px rgb(0, 0, 0);
+        }
+        body{
+            background-color: rgb(0, 0, 56);
+        }
+        a:link{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="three">
+        <div align="left">
+           <a href="budget.html"> <h3 id="Fback"  class="back">←</h3></a>
+           
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="computers" align="center">
+
+            <button id="A1" onclick="A1()" class="computer"><img src="pc currecy/900$/1.jpg" width="135px" height="auto"> <br>  <span>CyberpowerPC Gamer Xtreme VR Gaming PC</span></button>
+            <button id="A2" onclick="A2()" class="computer"><img src="pc currecy/900$/2.jpg" width="135px" height="auto"> <br> <span>CYBERPOWERPC Gamer Master Gaming PC</span></button>
+            <button id="A3" onclick="A3()" class="computer"><img src="pc currecy/900$/3.jpg" width="135px" height="auto"> <br> <span>SkyTech Blaze II Gaming Computer PC</span></button>
+            <button id="A4" onclick="A4()" class="computer"><img src="pc currecy/900$/4.jpg" width="95px" height="auto"> <br> <span>CUK ASUS TUF GT301 Gaming PC</span></button>
+            <button id="A5" onclick="A5()" class="computer"><img src="pc currecy/900$/5.jpg" width="70px" height="auto"> <br> <span>HP Pavilion Gaming Computer</span></button>
+            <button id="A6" onclick="A6()" class="computer"><img src="pc currecy/900$/6.jpg" width="74px" height="auto"> <br> <span>DELL G5 Gaming PC</span></button>
+
+        </div>
+        <div id="information" align="center">
+            <div id="x" align="right">
+                <span style="color: red;" onclick="x()">X</span>
+                <script>
+                    function x(){
+                        document.getElementById("information").style.display = "none";
+                    }
+                </script>
+            </div>
+            <br>
+            <br>
+            <span id="informationText"></span>
+            <br>
+            <br>
+            <br>
+            <a href="https://www.amazon.com/CyberpowerPC-Xtreme-i5-10400F-GeForce-GXiVR8060A10/dp/B08FBK2DK5/ref=sr_1_1_sspa?dchild=1&keywords=gaming+pc&qid=1626874144&refinements=p_36%3A90000-100000&rnid=2421879011&s=pc&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyRVBDUlVNT1BCVUNFJmVuY3J5cHRlZElkPUEwNDQ0NDI1MVhIRk1UWUNYV1lDUiZlbmNyeXB0ZWRBZElkPUExMDI1NTAzSDM0MTQ3MlBZREZNJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="><button id="buy1" onclick="Abuy1()" class="buy">Buy</button></a>
+            <a href="https://www.amazon.com/CYBERPOWERPC-Master-Gaming-GeForce-GMA890A/dp/B09253DYWP/ref=sr_1_3?dchild=1&keywords=gaming+pc&qid=1626874363&refinements=p_36%3A90000-100000&rnid=2421879011&s=pc&sr=1-3"><button id="buy2" onclick="Abuy2()" class="buy">Buy</button></a>
+            <a href="https://www.amazon.com/Dell-Optiplex-7010-Quad-Core-Refurbished/dp/B077D4SFMF/ref=sr_1_14?dchild=1&keywords=desktop+computer&qid=1626864635&refinements=p_36%3A-39900&rnid=2421879011&sr=8-14"><button id="buy3" onclick="Abuy3()" class="buy">Buy</button></a>
+            <a href="https://www.amazon.com/Graphics-3200MHz-Windows-Desktop-Computer/dp/B08L6SNK99/ref=sr_1_12?dchild=1&keywords=gaming+pc&qid=1626874650&refinements=p_36%3A90000-100000&rnid=2421879011&s=pc&sr=1-12"><button id="buy4" onclick="Abuy4()" class="buy">Buy</button></a>
+            <a href="https://www.amazon.com/HP-Pavilion-Computer-Processor-TG01-0040/dp/B07YVQGBGB/ref=sr_1_9?dchild=1&keywords=gaming+pc&qid=1626874920&refinements=p_36%3A90000-99900&rnid=2421879011&s=pc&sr=1-9"><button id="buy5" onclick="Abuy5()" class="buy">Buy</button></a>
+            <a href="https://www.amazon.com/dp/B099YZYW61/ref=sr_1_18?dchild=1&keywords=gaming+pc&qid=1626875057&refinements=p_36%3A90000-99900&rnid=2421879011&s=pc&sr=1-18"><button id="buy6" onclick="Abuy6()" class="buy">Buy</button></a>
+            <button id="buy7" onclick="Abuy7()" class="buy">Buy</button>
+            <button id="buy8" onclick="Abuy8()" class="buy">Buy</button>
+            <button id="buy9" onclick="Abuy9()" class="buy">Buy</button>
+
+        </div>
+        <script>
+          
+
+
+            function A1(){
+               document.getElementById("information").style.display = "block";
+               document.getElementById("informationText").innerHTML = "CyberpowerPC Gamer Xtreme VR Gaming PC, Intel i5-10400F 2.9GHz, GeForce GTX 1660 Super 6GB, 8GB DDR4, 500GB NVMe SSD, Wi-Fi Ready & Windows 10 Home (GXiVR8060A10)";
+             document.getElementById("buy2").style.display = "none";
+             document.getElementById("buy3").style.display = "none";
+             document.getElementById("buy4").style.display = "none";
+             document.getElementById("buy5").style.display = "none";
+             document.getElementById("buy6").style.display = "none";
+             document.getElementById("buy7").style.display = "none";
+             document.getElementById("buy8").style.display = "none";
+             document.getElementById("buy9").style.display = "none";
+               document.getElementById("buy1").style.display = "block";
+               }
+            function A2(){
+                document.getElementById("information").style.display = "block";
+                document.getElementById("informationText").innerHTML = "CYBERPOWERPC Gamer Master Gaming PC, AMD Ryzen 5 3600 3.6GHz, 16GB DDR4, GeForce GTX 1650 Super 4GB, 500GB NVMe SSD, 1TB HDD, WiFi Ready & Win 10 Home (GMA890A)";
+                document.getElementById("buy1").style.display = "none";
+             document.getElementById("buy3").style.display = "none";
+             document.getElementById("buy4").style.display = "none";
+             document.getElementById("buy5").style.display = "none";
+             document.getElementById("buy6").style.display = "none";
+             document.getElementById("buy7").style.display = "none";
+             document.getElementById("buy8").style.display = "none";
+             document.getElementById("buy9").style.display = "none";
+                document.getElementById("buy2").style.display = "block";
+            }
+            function A3(){
+                document.getElementById("information").style.display = "block";
+                document.getElementById("informationText").innerHTML = "DELL Optiplex 7010 Small Form Factor Desktop Computer, Intel Quad-Core i7-3770 Up to 3.9GHz, 16GB RAM, 2TB 7200 RPM HDD, DVD, USB 3.0, WIFI, Windows 10 Pro (Renewed)']";
+                document.getElementById("buy1").style.display = "none";
+             document.getElementById("buy2").style.display = "none";
+             document.getElementById("buy4").style.display = "none";
+             document.getElementById("buy5").style.display = "none";
+             document.getElementById("buy6").style.display = "none";
+             document.getElementById("buy7").style.display = "none";
+             document.getElementById("buy8").style.display = "none";
+             document.getElementById("buy9").style.display = "none";
+                document.getElementById("buy3").style.display = "block";
+            }
+            function A4(){
+                document.getElementById("information").style.display = "block";
+                document.getElementById("informationText").innerHTML = "CUK ASUS TUF GT301 Gaming PC (AMD Ryzen 5 with Radeon Graphics, 16GB 3200MHz DDR4 RAM, 512GB NVMe SSD, 500W PSU, AC WiFi, Windows 10 Home) Tower Gamer Desktop Computer";
+                document.getElementById("buy1").style.display = "none";
+             document.getElementById("buy2").style.display = "none";
+             document.getElementById("buy3").style.display = "none";
+             document.getElementById("buy5").style.display = "none";
+             document.getElementById("buy6").style.display = "none";
+             document.getElementById("buy7").style.display = "none";
+             document.getElementById("buy8").style.display = "none";
+             document.getElementById("buy9").style.display = "none";
+                document.getElementById("buy4").style.display = "block";
+            }
+            function A5(){
+                document.getElementById("information").style.display = "block";
+                document.getElementById("informationText").innerHTML = "HP Pavilion Gaming Desktop Computer, AMD Ryzen 5 3500 Processor, AMD Radeon Rx 5500 4 GB, 8 GB RAM, 512 GB SSD, Windows 10 Home (TG01-0040, Black)";
+                document.getElementById("buy1").style.display = "none";
+             document.getElementById("buy2").style.display = "none";
+             document.getElementById("buy3").style.display = "none";
+             document.getElementById("buy4").style.display = "none";
+             document.getElementById("buy6").style.display = "none";
+             document.getElementById("buy7").style.display = "none";
+             document.getElementById("buy8").style.display = "none";
+             document.getElementById("buy9").style.display = "none";
+                document.getElementById("buy5").style.display = "block";
+            }
+            function A6(){
+                document.getElementById("information").style.display = "block";
+                document.getElementById("informationText").innerHTML = "2021 DELL G5 Gaming Desktop PC Intel 6-Core i5-10400F 8GB DDR4 RAM 256GB M.2 NVMe SSD AMD Radeon RX 5300 3GB GDDR6 HMDI DP USB C WiFi BT RJ-45 Windows 10 Home Wired Keyboard&Mouse w/RE Accessories";
+                document.getElementById("buy1").style.display = "none";
+             document.getElementById("buy2").style.display = "none";
+             document.getElementById("buy3").style.display = "none";
+             document.getElementById("buy4").style.display = "none";
+             document.getElementById("buy5").style.display = "none";
+             document.getElementById("buy7").style.display = "none";
+             document.getElementById("buy8").style.display = "none";
+             document.getElementById("buy9").style.display = "none";
+                document.getElementById("buy6").style.display = "block";
+            }
+        </script>
+    </div>
+</body>
+</html>
